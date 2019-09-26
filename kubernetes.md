@@ -1,20 +1,20 @@
-应用程序区分：
-    有状态：一个应用程序处理请求时，与曾经处理的请求有关联关系
-    无状态：一个应用程序处理请求时，与曾经处理的请求无关联关系，每个请求都是独立的
+应用程序区分：  
+    有状态：一个应用程序处理请求时，与曾经处理的请求有关联关系  
+    无状态：一个应用程序处理请求时，与曾经处理的请求无关联关系，每个请求都是独立的  
 
-运维三大核心任务：发布、变更、故障处理
-    人肉运维：重复、易出错
-    脚本化运维：重复造轮子
-    专业运维系统：
-    云计算系统：
-        openstack（kvm，xen等主机级虚拟化）
-        容器编排系统
-            docker-compose，docker-swam（cluster），docker-machine
-            mesos（DC/OS），marathon
-            kubernetes，Google（Borg），golang语言研发
-        滚动更新、变更（HPA）、故障处理
+运维三大核心任务：发布、变更、故障处理   
+    人肉运维：重复、易出错   
+    脚本化运维：重复造轮子   
+    专业运维系统：  
+    云计算系统：  
+        openstack（kvm，xen等主机级虚拟化）  
+        容器编排系统  
+            docker-compose，docker-swam（cluster），docker-machine  
+            mesos（DC/OS），marathon  
+            kubernetes，Google（Borg），golang语言研发  
+        滚动更新、变更（HPA）、故障处理  
     
-容器编排
+容器编排  
     Docker通过“镜像”机制极富创造性地解决了应用程序的根本性难题，它推动了容器技术的快速普及生产落地；
     容器本身仅提供了托管运行应用的底层逻辑，而容器编排（Orchestration）才是真正产生价值的位置所在；
     
